@@ -1,7 +1,9 @@
 body{
-    margin: 0;
-    background-image: url(/project-portfolio-Faissal-div/plaatjes/achtergrond.jpg);
+    background-image: url(/plaatjes/achtergrond.jpg);
     background-size: 100%;
+    width:100%;
+    height:100%;
+    margin: 0;
 }
 
 
@@ -24,13 +26,9 @@ body{
 
 
 
-class{
+#myslides{
     width: 250px;
     height: 250px;
-    margin-top: 5%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-
  }
 
    ul {
@@ -68,3 +66,17 @@ class{
       text-decoration: none;
     }
  
+  #titel2{
+   margin-left: 40%;
+   margin-top: 5%;
+   color: rgb(182, 178, 178);
+   font-family: 'Times New Roman', Times, serif;
+  }
+
+  #tekst2{
+    margin-left: 20%;
+    margin-top: 3%;
+    color: rgb(182, 178, 178);
+    margin-right: 20%;
+    font-family: 'Times New Roman', Times, serif;
+   }
