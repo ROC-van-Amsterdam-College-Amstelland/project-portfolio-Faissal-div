@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-image: url(/project-portfolio-Faissal-div/plaatjes/achtergrond.jpg);
+    background-size: 100%;
+}
+
+
+
+#titel{
+   margin-left: 40%;
+   margin-top: 5%;
+   color: rgb(182, 178, 178);
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+
+#tekst{
+    margin-left: 20%;
+    margin-top: 3%;
+    color: rgb(182, 178, 178);
+    margin-right: 20%;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+
+
+class{
+    width: 250px;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+ }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(201, 199, 199);
+
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(29, 10, 97);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    
+    li a:hover {
+      background-color: #111;
+      text-decoration: none;
+    }
+ 
