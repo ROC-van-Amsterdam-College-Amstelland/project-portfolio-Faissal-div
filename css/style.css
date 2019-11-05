@@ -98,6 +98,29 @@ body{
 
     #mondriaan{
       border-radius: 8px;
+      width: 50%;
+      height: 250px;
+    }
+
+    #webshop{
+      border-radius: 8px;
+      width: 50%;
+      height: 250px;
+    }
+    .images{
+      display: inline-flex;
+      width: 100%;
+      position: relative;
+      padding: 4px;
+    
+    }
+    .block1 img{
+      width: 100% ;
+     height: 300px;
+    }
+    .block1{
+      padding: 3px;
+      width: 50%;
     }
 
     p{
@@ -123,7 +146,7 @@ body{
   }
   
   
-  input[type=verstuur] {
+  input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -135,7 +158,7 @@ body{
   }
   
 
-  input[type=verstuur]:hover {
+  input[type=submit]:hover {
     background-color: #247434;
   }
   
@@ -151,7 +174,6 @@ body{
     margin-left: 40%;
     margin-right: 40%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
   }
 
   #fname{
@@ -161,7 +183,7 @@ body{
 
   }
 
-  #country{
+  #landen{
     color: rgb(182, 178, 178);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
@@ -178,3 +200,87 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
  }
+
+ #country{
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+#voornaam{
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+#achternaam{
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+
+
+.doos{
+   padding: 10px;
+   width: 100%;
+
+}
+
+.balk{
+  border: 1px solid white;
+  padding: 20px;
+  margin-top: 10px;
+
+}
+.innerbalk1{
+  border: 1px solid white;
+  padding: 25px;
+  background-color: rgb(182, 178, 178);
+  border-radius: 15px;
+  position: relative;
+  width: 75%;
+}
+
+.tekst{
+  position: absolute;
+  top: 10px;
+  color:  rgb(22, 86, 146);
+  margin-right: 50%;
+  margin-left: 50%;
+}
+
+.html{
+
+}
+
+.innerbalk2{
+  border: 1px solid white;
+  padding: 25px;
+  background-color: rgb(182, 178, 178);
+  border-radius: 15px;
+  position: relative;
+  width: 80%;
+}
+
+.innerbalk3{
+  border: 1px solid white;
+  padding: 25px;
+  background-color: rgb(182, 178, 178);
+  border-radius: 15px;
+  position: relative;
+  width: 20%;
+}
+
+.vaardigheden{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 50px;
+}
+
+.vaardigheden2{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 18px;
+  margin-top: 20px;
+}
