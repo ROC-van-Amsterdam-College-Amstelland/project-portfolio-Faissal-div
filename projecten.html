@@ -30,30 +30,41 @@
     </nav>
   </header>
   <main>
-    <div id="titel2">
-      </id>
+    <div class="titel">
+
       <h1>Mijn projecten</h1>
 
     </div>
-    <div id="tekst2">
-      </id>
+    <div class="tekst">
+
       <h5>
         Ik ben niet zo lang geleden begonnen met programmeren, dus ik heb nog niet heel veel projecten gemaakt.
         1 van mijn projecten is natuurlijk deze site. Verder heb ik nog een paar simpele opdrachten gemaakt voor school.
         Hier heb ik 2 opdrachten die ik heb gemaakt met html en css. De eerste is een simpele webshop. En de tweede is
         de schilderij van piet mondriaan.
       </h5>
-      <div class="images">
-              <div class="block1">
-                <img src="plaatjes/mondriaan.png"  >
-              </div>
-      
-              <div class="block1">
-                <img src="plaatjes/webshop.png"  >
-              </div> 
+    </div>
+
+
+    <div class="w3-content w3-display-container">
+      <div class="image-container">
+        <img class="pictures" src="plaatjes/mondriaan.png" style="width:350px">
+        <img class="pictures" src="plaatjes/webshop.png" style="width:350px">
+
       </div>
+      <div class="button-container">
+        <button class="left1" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="right1" onclick="plusDivs(1)">&#10095;</button>
+
+      </div>
+    </div>
+
 
   </main>
   <footer>
 
   </footer>
+
+</body>
+
+</html>

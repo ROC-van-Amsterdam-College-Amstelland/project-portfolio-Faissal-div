@@ -1,4 +1,5 @@
 
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -8,7 +9,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("pictures");
   if (n > x.length) {
     slideIndex = 1 
   }
@@ -21,3 +22,9 @@ function showDivs(n) {
   console.log(slideIndex);
   x[slideIndex - 1].style.display = "block";
 }
+
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+
+

@@ -13,6 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="js/script.js" async></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
 </head>
 
 <body>
@@ -43,27 +44,53 @@
         Ik zit op het roc Amstelland en ik doe de opleiding Applicatie ontwikkelaar. Ik vind het een hele leuke
         opleiding en ik hoop dat ik me diploma ga halen. Als u op de pijltje klikt onder de foto gaat hij veranderen.
       </h5>
-      
- 
+
+
 
 
       <main>
 
 
-        <div class="w3-content w3-display-container">
-          <img class="mySlides" src="plaatjes/strand.jpg" style="width:350px">
-          <img class="mySlides" src="plaatjes/klein.jpg" style="width:350px">
-          <img class="mySlides" src="plaatjes/amsterdam.png" style="width:350px">
+
+          <div class="image-container">
+          <img class="pictures" src="plaatjes/strand.jpg" style="width:350px">
+          <img class="pictures" src="plaatjes/klein.jpg" style="width:350px">
+          <img class="pictures" src="plaatjes/amsterdam.png" style="width:350px">
+          </div>
 
 
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          <div class="button-container">
+          <button class="left1" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="right1" onclick="plusDivs(1)">&#10095;</button>
         </div>
 
-      </main>
-      <footer>
 
-      </footer>
+
+    </div>
+
+  </main>
+  <footer id="footer">
+      <nav>
+          <ul>
+              <li><a href="https://github.com/Faissal-div" id="github-contact">Github</a></li>
+              <li><a href="contact.html" id="github-contact">Contact</a></li>
+              <li><a href="https://www.instagram.com/faissal_5713/" id="github-contact">Instagram</a></li>
+              <li><a href="mailto:faissal_9@live.nl?Subject=Hello%20again" id="github-contact">Email</a></li>
+          </ul>
+      </nav>
+
+
+
+
+      <div id="date">
+          <p>Datum: 6-11-2019  <span id="datetime"></span> </p>
+      </div>
+      <p><button id="Button1" onclick="clickCounter()" type="button">Like</button></p>
+      <div id="result"></div>
+
+      <script src="js/script.js"></script>
+
+  </footer>
 </body>
 
 </html>
